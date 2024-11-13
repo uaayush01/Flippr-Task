@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sen:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Sen:wght@400..800&display=swap');
+
+
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 400 to 800 */
+
+
+
+.db {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bolder;
+}
+
+.nb {
+    font-family: "Sen", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /*400to 800*/
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #232536;
+    height: 50px;
+    color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+nav h3 {
+    color: #F4F4F4;
+    margin-left: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    color: #F4F4F4;
+
+
+}
+
+.container a {
+    color: #F4F4F4;
+
+}
+
+button {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 12px;
+    width: 120px;
+}
+
+.hero-section {
+    width: 100%;
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.main-img p {
+    position: absolute;
+    top: 20%;
+    margin-left: 50px;
+    color: #F4F4F4;
+}
+
+.main-img .p-2 {
+    position: absolute;
+    top: 40%;
+    width: 20%;
+    color: #F4F4F4;
+}
+
+.main-img h1 {
+    position: absolute;
+    top: 25%;
+    width: 20%;
+    font-weight: 900;
+    margin-left: 50px;
+    color: #F4F4F4;
+}
+
+.img-btn {
+    position: absolute;
+    top: 60%;
+    color: black;
+    background-color: #FFD050;
+    margin-left: 50px;
+}
+
+.img1 {}
+
+.det {
+    z-index: 20;
+
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.main-f {
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    height: 100%;
+    width: 100%;
+}
+
+.container-1 {
+    height: 30vh;
+    margin-left: 30px;
+    width: 40vw;
+    border: 2px solid gray;
+}
+
+.img2-btn {
+    color: black;
+    background-color: #FFD050;
+    padding: 5px;
+    margin-left: 0;
+}
+
+.img2-a {
+
+    margin-top: 18px;
+}
+
+.card {
+    width: 25vw;
+    height: 10vh;
+    color: black;
+    font-size: large;
+}
+
+.card:hover {
+    background-color: #FFD050;
+}
+
+.card-p {}
+
+.n {
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+}
+
+.n a {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.line {
+    width: 90%;
+    height: 20%;
+    background-color: #FFD050;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-right: 40px;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: row;
+    /* gap: 10%; */
+    /* justify-content: ; */
+    background-color: #F4F0F8;
+    margin-top: 10%;
+    height: 40vh;
+    padding: 15px;
+    margin-left: 0;
+}
+
+.about p {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    line-height: 20px;
+}
+
+.about h1 {
+    width: 30%;
+}
+
+.about a {
+    margin-top: 20px;
+}
+
+.mission p {
+    width: 60%;
+    line-height: 20px;
+}
+
+.cat {
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.main-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.cat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 2px solid #F4F0F8;
+    transition: 0.5s;
+    height: 20%;
+    width: 20%;
+    padding: 20px;
+    margin: 50px;
+}
+
+.cat h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.cat h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cat p {
+    margin-top: 0;
+}
+
+.cat-card:hover {
+    background-color: #FFD050;
+}
+
+.main-card img {
+    height: 40px;
+    width: 40px;
+}
+
+.nimg {
+    position: absolute;
+    padding: 20px;
+    height: 60vh;
+    width: 60vw;
+    padding-left: 80px;
+}
+
+.ncard {
+    position: relative;
+    width: 40vw;
+    background-color: white;
+    top: -80%;
+    left: 60%;
+    padding: 20px;
+    padding-left: 30px;
+    height: 50vh;
+}
+
+.ncard button {
+    background-color: #FFD050;
+    color: black;
+    width: 150px;
+}
+
+.auth h1 {
+    text-align: center;
+    margin-top: 34%;
+}
+
+.auth-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: -10px;
+    margin-left: 10px;
+
+  
+}
+
+.auth-card {
+    height: 4%;
+    width: 15%;
+    background-color: #F4F0F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auth-card:hover {
+    background-color: #FBF6EA;
+}
+
+.auth-card img {
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+.auth-card p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.auth-card h2 {
+    margin-top: 0;
+    padding-top: 0;
+    margin: 0%;
+}
+
+.icns img {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 55%;
+    justify-content: space-between;
+    margin-top: 5%;
+    height: 20px;
+    width: 250px;
+
+    margin-left: 14%;
+}
+
+.logo p {
+    margin-left: -40px;
+}
+
+.testimonal {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonial-1 {
+    gap: 150px;
+    display: flex;
+    margin-top: 40px;
+    padding: 40px;
+    margin-left: 200px;
+    height: 40vh;
+    width: 70vw;
+    background-color: #FBF6EA;
+
+}
+
+
+.det {
+    width: 340px;
+}
+
+.det-1 {
+    /* margin-left: 100px; */
+    width: 300px;
+}
+
+.det-1 img {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+}
+
+.writer img {
+
+    height: 50px;
+    width: 50px;
+}
+
+.writer h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.writer h4 {
+    margin-top: 0;
+}
+
+.det-1 h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.line2 {
+    height: 80%;
+    width: 0.5%;
+    background-color: #6D6E76;
+
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc h1 {
+    margin-bottom: 0;
+    margin-top: 5%;
+    width: 320px;
+}
+
+.desc p {
+    margin-bottom: 0;
+    width: 380px;
+    margin-top: 1%;
+}
+
+.desc button {
+    margin-top: 2%;
+    background-color: #FFD050;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    background-color: #232536;
+    color: #F4F4F4;
+}
+.foot-1 {
+    /* width: 100%;
+    background-color: #232536;
+    color: #F4F4F4; */
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    padding-top: -20px;
+    height: auto;
+   
+}
+
+footer a {
+    
+    color: white;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 63%;
+
+}
+
+.foot-cont{
+    background-color: #6D6E76;
+    display: flex;
+        align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 60%;
+}
+.foot-cont h1{
+    width: 40%;
+}
+.foot-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.foot-cont button{
+    background-color: #FFD050;
+    width: 120px;
+    height: 40px;
+}
+.foot-cont input{
+    color: #F4F4F4;
+    background: transparent;
+}
+
+a:hover{
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+
+
+@media (max-width: 1024px) {
+    .main-about {
+        flex-direction: column;
+        height: auto;
+    }
+    .about p {
+        width: 100%;
+    }
+    .about h1 {
+        width: 100%;
+    }
+    .main-f {
+        flex-direction: column;
+        gap: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    .container {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .main-img h1,
+    .main-img p,
+    .main-img .p-2,
+    .img-btn {
+        width: 60%;
+        margin-left: 20px;
+    }
+    .container-1 {
+        width: 70vw;
+    }
+    .card {
+        width: 40vw;
+    }
+    .cat-card {
+        width: 100%;
+    }
+    .foot-cont {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-img h1,
+    .main-img p,
+    .main-img .p-2 {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+    .main-f {
+        flex-direction: column;
+        gap: 5%;
+    }
+    .hero-section,
+    .container,
+    .foot {
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        width: 100%;
+    }
+    .container-1,
+    .card,
+    .cat-card {
+        width: 90vw;
+    }
+}
